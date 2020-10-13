@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Fonds>
+  <Fond login="MSCIENCE" name="Научный фонд" Authorisation = "true" alias="Основной фонд">
+    <BookByTitle>
+      <ShortBiblio FieldsOrder="245a 245b 245c 245n 245p 245h 100a 700a 110a 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+      <FullBiblio FieldsOrder="245a 245b 245c 245n 245p 245h 100a 700a 110a 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+    </BookByTitle>
+    <BookByAuthor>
+      <ShortBiblio FieldsOrder="100a 700a 110a 245a 245b 245c 245n 245p 245h 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+      <FullBiblio FieldsOrder="100a 700a 110a 245a 245b 245c 245n 245p 245h 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+    </BookByAuthor>
+    <Fields>
+      <Field id="100a" name="Автор" pattern="$V" search="1"/>
+      <Field id="700a" name="Авторы" pattern=", $V" search="0"/>
+      <Field id="110a" name="Организация/юрисдикция" pattern=" $V" search="0"/>
+      <Field id="245a" name="Заглавие" pattern=" $V" search="1"/>
+      <Field id="245b" name="Продолж.заглавия" pattern=": $V" search="0"/>
+      <Field id="245c" name="Ответственность" pattern=" $V" search="0"/>
+      <Field id="245n" name="Номер части/раздела" pattern=" $V" search="0"/>
+      <Field id="245p" name="Название части/раздела" pattern=" $V" search="0"/>
+      <Field id="245h" name="Физич.носитель" pattern=" [$V] " search="0"/>
+      <Field id="250a" name="Осн.свед.об изд." pattern=", $V" search="0"/>
+      <Field id="260a" name="Место издания" pattern=". $V" search="0"/>
+      <Field id="653a" name="Ключевые слова" pattern="$V" search="1"/>
+      <Field id="260b" name="Издательство" pattern=": $V" search="1"/>
+      <Field id="260c" name="Дата издания" pattern=", $V" search="1"/>
+      <Field id="300a" name="Объем" pattern=". - $V" search="0"/>
+      <Field id="440a" name="Серия" pattern=" $V" search="0"/>
+      <Field id="440v" name="Номер тома" pattern=" $V" search="0"/>
+      <Field id="020a" name="ISBN" pattern=" $V" search="0"/>
+      <Field id="773t" name="Название источника" pattern="//$V" search="0"/>
+      <Field id="773d" name="Место и дата издания" pattern=" $V" search="0"/>
+      <Field id="773g" name="Прочая информация" pattern=" $V" search="0"/>
+    </Fields>
+  </Fond>
+
+  <Fond login="MDIS" name="Диссертации" Authorisation ="false">
+    <BookByTitle>
+      <ShortBiblio FieldsOrder="245a 245b 245c1 245n 245p 245h 100a 700a 110a 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+      <FullBiblio FieldsOrder="245a 245b 245c1 245n 245p 245h 100a 700a 110a 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+    </BookByTitle>
+    <BookByAuthor>
+      <ShortBiblio FieldsOrder="100a 700a 110a 245a 245b 245c1 245n 245p 245h 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+      <FullBiblio FieldsOrder="100a 700a 110a 245a 245b 245c1 245n 245p 245h 250a 260a 260b 260c 300a 440a 440v 020a 773t 773d 773g"
+        />
+    </BookByAuthor>
+    <Fields>
+      <Field id="100a" name="Автор" pattern="$V" search="1"/>
+      <Field id="700a" name="Авторы" pattern=", $V" search="0"/>
+      <Field id="110a" name="Организация/юрисдикция" pattern=" $V" search="0"/>
+      <Field id="245a" name="Заглавие" pattern=" $V" search="1"/>
+      <Field id="245b" name="Продолж.заглавия" pattern=": $V" search="1"/>
+      <Field id="245c1" name="Ответственность" pattern=" $V" search="1"/>
+      <Field id="245n" name="Номер части/раздела" pattern=" $V" search="0"/>
+      <Field id="245p" name="Название части/раздела" pattern=" $V" search="0"/>
+      <Field id="245h" name="Физич.носитель" pattern=" [$V] " search="0"/>
+      <Field id="250a" name="Осн.свед.об изд." pattern=", $V" search="0"/>
+      <Field id="260a" name="Место издания" pattern=". $V" search="0"/>
+      <Field id="653a" name="Ключевые слова" pattern="$V" search="1"/>
+      <Field id="260b" name="Издательство" pattern=": $V" search="1"/>
+      <Field id="260c" name="Дата издания" pattern=", $V" search="1"/>
+      <Field id="300a" name="Объем" pattern=". - $V" search="0"/>
+      <Field id="440a" name="Серия" pattern=" $V" search="0"/>
+      <Field id="440v" name="Номер тома" pattern=" $V" search="0"/>
+      <Field id="020a" name="ISBN" pattern=" $V" search="0"/>
+      <Field id="773t" name="Название источника" pattern="//$V" search="0"/>
+      <Field id="773d" name="Место и дата издания" pattern=" $V" search="0"/>
+      <Field id="773g" name="Прочая информация" pattern=" $V" search="0"/>
+    </Fields>
+  </Fond>
+</Fonds>

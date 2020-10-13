@@ -1,0 +1,30 @@
+2019-07-04 12:46:18.9003 Info Message Template Auto Format enabled
+2019-07-04 12:46:18.9093 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-04 12:46:18.9803 Info Adding target FileTarget(Name=allfile)
+2019-07-04 12:46:18.9823 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-04 12:46:19.0133 Info Found 45 configuration items
+2019-07-04 12:51:18.1302 Info Message Template Auto Format enabled
+2019-07-04 12:51:18.1302 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-04 12:51:18.5672 Info Adding target FileTarget(Name=allfile)
+2019-07-04 12:51:18.5672 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-04 12:51:18.6172 Info Found 45 configuration items
+2019-07-04 13:06:11.8626 Info Message Template Auto Format enabled
+2019-07-04 13:06:11.8696 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-04 13:06:11.9366 Info Adding target FileTarget(Name=allfile)
+2019-07-04 13:06:11.9366 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-04 13:06:11.9696 Info Found 45 configuration items
+2019-07-05 11:04:36.6681 Info Message Template Auto Format enabled
+2019-07-05 11:04:36.7051 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-05 11:04:36.8342 Info Adding target FileTarget(Name=allfile)
+2019-07-05 11:04:36.8342 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-05 11:04:36.8722 Info Found 45 configuration items
+2019-07-05 11:05:11.2986 Info Message Template Auto Format enabled
+2019-07-05 11:05:11.2986 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-05 11:05:11.3736 Info Adding target FileTarget(Name=allfile)
+2019-07-05 11:05:11.3736 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-05 11:05:11.4066 Info Found 45 configuration items
+2019-07-05 11:06:43.5738 Info Message Template Auto Format enabled
+2019-07-05 11:06:43.5738 Info Loading assembly: NLog.Web.AspNetCore
+2019-07-05 11:06:43.6448 Info Adding target FileTarget(Name=allfile)
+2019-07-05 11:06:43.6448 Info Adding target FileTarget(Name=ownFile-web)
+2019-07-05 11:06:43.6788 Info Found 45 configuration items
